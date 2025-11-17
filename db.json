@@ -1,0 +1,86 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Рахим Стерлинг перешел в Арсенал на правах аренды",
+      "date": "03.09.2024",
+      "category": "Футбол",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "image": "news-detail-image.png",
+      "source": "Источник: Fabrizio Romano"
+    },
+    {
+      "id": 2,
+      "title": "Дембеле выиграл золотой мяч",
+      "date": "23.09.2025",
+      "category": "Футбол",
+      "content": "Content for Dembele winning the golden ball.",
+      "image": "news-detail-image.png",
+      "source": "Источник: France Football"
+    },
+    {
+      "id": 3,
+      "title": "Lakers победили в финале NBA",
+      "date": "15.06.2025",
+      "category": "Баскетбол",
+      "content": "Content for Lakers winning the NBA finals.",
+      "image": "news-detail-image.png",
+      "source": "Источник: NBA"
+    },
+    {
+      "id": 4,
+      "title": "Новый рекорд в регби",
+      "date": "01.08.2025",
+      "category": "Регби",
+      "content": "Content for the new rugby record.",
+      "image": "news-detail-image.png",
+      "source": "Источник: World Rugby"
+    },
+    {
+      "id": 5,
+      "title": "Чемпионат мира по хоккею",
+      "date": "20.05.2025",
+      "category": "Хоккей",
+      "content": "Content for the hockey world championship.",
+      "image": "news-detail-image.png",
+      "source": "Источник: IIHF"
+    },
+    {
+      "id": 6,
+      "title": "Тайсон Фьюри защитил титул",
+      "date": "10.11.2025",
+      "category": "Бокс",
+      "content": "Content for Tyson Fury defending his title.",
+      "image": "news-detail-image.png",
+      "source": "Источник: Boxing News"
+    },
+    {
+      "id": 7,
+      "title": "The International 2025",
+      "date": "15.08.2025",
+      "category": "Киберспорт",
+      "content": "Content for The International 2025.",
+      "image": "news-detail-image.png",
+      "source": "Источник: Dota 2"
+    },
+    {
+      "id": 8,
+      "title": "UFC 300",
+      "date": "01.07.2025",
+      "category": "Mix Fight",
+      "content": "Content for UFC 300.",
+      "image": "news-detail-image.png",
+      "source": "Источник: UFC"
+    }
+  ],
+  "categories": [
+    { "id": 1, "title": "Все новости", "icon": "all-news.svg" },
+    { "id": 2, "title": "Футбол", "icon": "football.svg" },
+    { "id": 3, "title": "Баскетбол", "icon": "basketball.svg" },
+    { "id": 4, "title": "Регби", "icon": "rugby.svg" },
+    { "id": 5, "title": "Хоккей", "icon": "hockey.svg" },
+    { "id": 6, "title": "Бокс", "icon": "boxing.svg" },
+    { "id": 7, "title": "Киберспорт", "icon": "cybersport.svg" },
+    { "id": 8, "title": "Mix Fight", "icon": "mixfight.svg" }
+  ]
+}
