@@ -16,7 +16,7 @@ export function NewsDetail() {
     useEffect(() => {
         async function loadNews() {
             try {
-                const response = await axios.get(`https://169943addf32007d.mokky.dev/news/${id}`);
+                const response = await axios.get(`https://089ea2db3fd3b3d0.mokky.dev/master/${id}`);
                 setNews(response.data);
             } catch(error){
                 console.log(error);

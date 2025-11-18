@@ -12,7 +12,7 @@ export function Comments({ newsId }) {
     async function fetchComments() {
         try {
             setLoading(true);
-            const response = await axios.get(`https://169943addf32007d.mokky.dev/comments?newsId=${newsId}`);
+            const response = await axios.get(`https://089ea2db3fd3b3d0.mokky.dev/com_put?newsId=${newsId}`);
             setComments(response.data);
         } catch (error) {
             console.error('Error fetching comments:', error);
@@ -31,7 +31,7 @@ export function Comments({ newsId }) {
         setSubmitMessage('Отправка комментария...');
 
         try {
-            const commentUrl = 'https://169943addf32007d.mokky.dev/comments';
+            const commentUrl = 'https://089ea2db3fd3b3d0.mokky.dev/com_put';
             const commentData = {
                 newsId: parseInt(newsId),
                 text: newComment,

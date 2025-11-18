@@ -15,7 +15,7 @@ export function Category() {
     useEffect(() => {
         async function loadNews() {
             try {
-                const { data } = await axios.get(`https://169943addf32007d.mokky.dev/news?category=${categoryName}`);
+                const { data } = await axios.get(`https://089ea2db3fd3b3d0.mokky.dev/mastercategory?category=${categoryName}`);
                 setNewsData(data);
             } catch(error){
                 console.log(error);

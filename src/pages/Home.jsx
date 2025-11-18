@@ -19,7 +19,7 @@ export function Home() {
         const searchParams = new URLSearchParams(location.search);
         const category = searchParams.get('category');
 
-        let api_url = `https://169943addf32007d.mokky.dev/news`;
+        let api_url = `https://089ea2db3fd3b3d0.mokky.dev/master`;
         if (categoryFilter) {
             api_url += `?category=${category}`;
         }

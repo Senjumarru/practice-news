@@ -14,7 +14,7 @@ export function Categories() {
     useEffect(() => {
         async function fetchCategories() {
             try {
-                const response = await axios.get('https://169943addf32007d.mokky.dev/categories');
+                const response = await axios.get('https://089ea2db3fd3b3d0.mokky.dev/mastercategory');
                 setCategories(response.data);
             } catch (error) {
                 console.error('Error fetching categories:', error)
